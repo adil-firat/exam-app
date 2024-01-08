@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Not Hesaplama</title>
+</head>
+
+<body>
+    <div class="frame">
+        <div class="content">
+
+            <h1>Harf Notu Hesaplama Programi</h1>
+            <div class="form">
+                <form action="#">
+                    <div>
+                        <label for="vize">Vize Notu :</label>
+                        <input type="number" id="vize">
+                        <br>
+                        <label for="ödev">Ödev Notu :</label>
+                        <input type="number" id="ödev">
+                        <br>
+                        <label for="final">Final Notu :</label>
+                        <input type="number" id="final" required min="00" max="100">
+                    </div>
+
+                    <h4 class="ortalama">Ortalama Puan : --</h4>
+                    <h4 class="harf-notu">Harf Notu : --</h4>
+
+                    <button type="submit" class="btn btn-hesapla">Hesapla</button>
+                    <button type="reset" class="btn btn-reset">Sıfırla</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
